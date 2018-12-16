@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>{{ page.shortname }} | Watson Health</title>
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ page.css }}favicon/apple-touch-icon.png">	
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ page.css }}favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ page.css }}favicon/favicon-16x16.png">
+		<link rel="manifest" href="{{ page.css }}favicon/site.webmanifest">
+		<link rel="mask-icon" href="{{ page.css }}favicon/safari-pinned-tab.svg" color="#00b6cb">
+		<link rel="shortcut icon" href="{{ page.css }}favicon/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<link rel="stylesheet" href="{{ page.css }}stylesheets/fonts.css">
+		<link rel="stylesheet" href="{{ page.css }}stylesheets/styles-override.css">
+		<meta name="viewport" content="width=device-width">
+
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+
+<!-- LEAVE ALONE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
+	<body>
+	
+		<div class="wrapper">
+			
+			{{ content }}
+			
+			<footer>
+				{% if page.title == 'Life Sciences' %}
+				{% else %}
+				<a href="https://pages.github.ibm.com/Watson-Health/life-sciences/" target="_blank">
+					Visit the Life Sciences page
+				</a>
+				{% endif %}
+				<a href="https://github.ibm.com/Watson-Health/life-sciences" target="_blank">
+					View the project on GitHub
+				</a>
+			</footer>
+
+    		</div>
+
+		<script src="javascripts/scale.fix.js"></script>
+    
+	</body>
+
+<!-- LEAVE ALONE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+
+</html>
+
+
+
+
+
+

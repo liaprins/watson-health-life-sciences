@@ -1,0 +1,14 @@
+name: LS
+markdown: kramdown
+
+collections:
+  - profiles
+  
+defaults:
+  -
+    scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "default"
+      css: "../../"
